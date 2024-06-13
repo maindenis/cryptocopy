@@ -303,6 +303,139 @@ textarea:focus {
     -webkit-transform: translate(-50%, -50%);
 }
 
+/*-- Resp Nav --*/
+
+#respNav {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#respNav:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+
+.z_2 {
+    position: relative;
+    z-index: 2;
+}
+
+.close_nav {
+    display: block;
+    width: 17px;
+    height: 17px;
+    border: none;
+    background: transparent;
+    position: fixed;
+    top: 24px;
+    left: 20px;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.close_nav svg {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.height_wrapp {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.height_wrapp > div {
+    width: 100%;
+}
+
+.nav_logo_wrapp {
+    padding: 10px 0 47px 0;
+    text-align: center;
+}
+
+.nav_logo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav_logo svg {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.resp_nav {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+
+.resp_nav li {
+    padding: 11px 0;
+    text-align: center;
+}
+
+.resp_nav li a {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFF;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.resp_nav li a:link,
+.resp_nav li a:visited {
+    color: #FFF;
+}
+
+.resp_nav li a:active,
+.resp_nav li a.active,
+.resp_nav li a:hover {
+    color: #FF5722;
+}
+
+/*-- /Resp Nav --*/
+
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
 /*-------------------------------------------*/

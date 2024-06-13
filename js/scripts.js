@@ -16,24 +16,25 @@ $(document).ready(function() {
 
     // --------------
 
-    $(".respmenubtn").click(function(e) {
+    $(".respbtn").click(function(e) {
       e.preventDefault();
-      if( $("#resp_nav").is(":hidden") ) {
-          $("#resp_nav").fadeIn(300);
-          $(this).addClass("active");
+      if( $("#respNav").is(":hidden") ) {
+          $("#respNav").fadeIn(300);
       } else {
-          $("#resp_nav").fadeOut(300);
-          $(this).removeClass("active");
+          $("#respNav").fadeOut(300);
       }
     });
     
     $(this).keydown(function(eventObject){
         if (eventObject.which == 27 &&
-            $("#resp_nav").is(":visible") &&
-            bodyWidth <= 767) {
-                $("#resp_nav").fadeOut(300);
-                $(".respmenubtn").removeClass("active");
+            $("#respNav").is(":visible")) {
+            $("#respNav").fadeOut(300);
         }
+    });
+
+    $(".close_nav").click(function(e) {
+        e.preventDefault();
+        $("#respNav").fadeOut(300);
     });
 
 });
