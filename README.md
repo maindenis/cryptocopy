@@ -2,3 +2,11 @@
 # https://maindenis.github.io/cryptocopy/30.html
 # https://maindenis.github.io/cryptocopy/32.html
 # https://maindenis.github.io/cryptocopy/35.html
+# https://maindenis.github.io/cryptocopy/1.html
+# https://maindenis.github.io/cryptocopy/2.html
+# https://maindenis.github.io/cryptocopy/25.html
+# https://maindenis.github.io/cryptocopy/26.html
+# https://maindenis.github.io/cryptocopy/3.html
+# https://maindenis.github.io/cryptocopy/30.html
+# https://maindenis.github.io/cryptocopy/32.html
+# https://maindenis.github.io/cryptocopy/35.html
