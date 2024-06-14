@@ -10,3 +10,5 @@
 # https://maindenis.github.io/cryptocopy/30.html
 # https://maindenis.github.io/cryptocopy/32.html
 # https://maindenis.github.io/cryptocopy/35.html
+# https://maindenis.github.io/cryptocopy/4.html
+# https://maindenis.github.io/cryptocopy/13.html
