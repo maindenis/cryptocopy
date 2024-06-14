@@ -1311,6 +1311,124 @@ textarea:focus {
 
 /*-- /Section 13 - 1 --*/
 
+/*-- Section 6 - 1 --*/
+
+.thumbnails_6 {
+    padding: 14px 0 8px 0;
+}
+
+.thumb_6 {
+    background: rgba(255, 255, 255, .03);
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+    margin: 8px 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.thumb_6_two_cols {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.thumb_6_two_cols > div:nth-child(1) {
+    width: 80px;
+}
+
+.thumb_6_two_cols > div:nth-child(2) {
+    width: calc(100% - 80px);
+}
+
+.thumb_6_icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border-radius: 12px;
+    position: relative;
+}
+
+.thumb_6_icon img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.thumb_6 h3 {
+    padding-bottom: 3px;
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FF5722;
+}
+
+.thumb_6_row {
+    display: flex;
+}
+
+.thumb_6_row > div:nth-child(1) {
+    width: 60%;
+}
+
+.thumb_6_row > div:nth-child(2) {
+    width: 40%;
+    text-align: right;
+}
+
+.thumb_6_row > div:nth-child(1) p {
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #B09B9B;
+}
+
+.thumb_6_row > div:nth-child(2) p {
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFF;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(15px);
+    border-radius: 12px;
+}
+
+.tag p {
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.bottom_text {
+    padding: 10px 0 7px 0;
+}
+
+.bottom_text p {
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B09B9B;
+}
+
+
+/*-- /Section 6 - 1 --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
