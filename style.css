@@ -1158,14 +1158,14 @@ textarea:focus {
     transition-timing-function: ease;
 }
 
-.thumb_3:link p,
-.thumb_3:visited p {
+.thumb_4:link p,
+.thumb_4:visited p {
     color: #FFF;
 }
 
-.thumb_3:active p,
-.thumb_3.active p,
-.thumb_3:hover p {
+.thumb_4:active p,
+.thumb_4.active p,
+.thumb_4:hover p {
     color: #FF5722;
 }
 
@@ -1200,6 +1200,7 @@ footer {
 .icon_link {
     display: block;
     width: 70px;
+    margin: 0 auto;
 }
 
 .icon_box {
