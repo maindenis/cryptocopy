@@ -1105,33 +1105,33 @@ textarea:focus {
     color: #FFF;
 }
 
-.thumbnails_3 {
+.thumbnails_4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.thumb_3 {
+.thumb_4 {
     display: block;
     width: 88px;
     text-align: center;
     padding: 10px 0 10px 0;
 }
 
-.thumb_3 .icon_box {
+.thumb_4 .icon_box {
     width: 38px;
     height: 38px;
     margin: 0 auto 13px auto;
 }
 
-.thumb_3 .icon_box img {
+.thumb_4 .icon_box img {
     display: block;
     width: auto;
     height: auto;
     max-width: 100%;
 }
 
-.thumb_3 p {
+.thumb_4 p {
     font-family: 'SF Pro Display';
     font-weight: 400;
     font-size: 13px;
