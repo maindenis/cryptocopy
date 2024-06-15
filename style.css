@@ -61,6 +61,8 @@ body {
     -ms-flex-direction: column;
     min-height: 100%;
     min-height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 header {
@@ -1590,14 +1592,137 @@ textarea:focus {
 
 /*-- /Section 7 - 1 --*/
 
+/*-- Section 8 - 1 --*/
+
+.back_link_wrapp {
+    padding: 3px 0 3px 0;
+}
+
+.back_link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.back_link svg {
+    margin-right: 12px;
+}
+
+.back_link p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: #FFF;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.back_link:link p,
+.back_link:visited p {
+    color: #FFF;
+}
+
+.back_link:active p,
+.back_link.active p,
+.back_link:hover p {
+    color: #FF5722;
+}
+
+.ref_items_title {
+    padding: 7px 0 15px 0;
+}
+
+.ref_items_title h3 {
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFF;
+}
+
+.ref_item {
+    background: rgba(255, 255, 255, .03);
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+    margin: 9px 0;
+    padding: 12px 10px 11px 10px;
+}
+
+.ref_item {
+    margin-bottom: 5px;
+}
+
+.ref_item_title h3 {
+    padding-bottom: 3px;
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FF5722;
+}
+
+.ref_item_row {
+    display: flex;
+}
+
+.ref_item_row > div:nth-child(1) {
+    width: 115px;
+}
+
+.ref_item_row > div:nth-child(2) {
+    width: calc(100% - 115px);
+    text-align: right;
+}
+
+.ref_item_row > div:nth-child(1) p {
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #B09B9B;
+}
+
+.ref_item_row > div:nth-child(2) p {
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFF;
+}
+
+/*-- /Section 8 - 1 --*/
+
+/*-- Section 10 - 1 --*/
+
+.ref_items_2 {
+    padding-top: 9px;
+}
+
+/*-- /Section 10 - 1 --*/
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
-
-footer {
-
-}
 
 .footer_section .black_box_2 {
     margin-top: 0;

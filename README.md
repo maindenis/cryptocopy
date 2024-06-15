@@ -14,3 +14,5 @@
 # https://maindenis.github.io/cryptocopy/13.html
 # https://maindenis.github.io/cryptocopy/6.html
 # https://maindenis.github.io/cryptocopy/7.html
+# https://maindenis.github.io/cryptocopy/8.html
+# https://maindenis.github.io/cryptocopy/10.html
