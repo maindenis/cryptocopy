@@ -1866,6 +1866,23 @@ p.pos_3 {
 
 /*-- /Section 11 - 1 --*/
 
+/*-- Section 31 - 1 --*/
+
+.table_11_wrapp_2 .table_11_row > div:nth-child(1) {
+    width: calc(100% - 210px);
+}
+
+.table_11_wrapp_2 .table_11_row > div:nth-child(2) {
+    width: 90px;
+    text-align: right;
+}
+
+.table_11_wrapp_2 .table_11_row > div:nth-child(3) {
+    width: 120px;
+    text-align: right;
+}
+
+/*-- /Section 31 - 1 --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
